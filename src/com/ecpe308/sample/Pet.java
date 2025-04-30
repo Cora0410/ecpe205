@@ -1,8 +1,8 @@
 package com.ecpe308.sample;
 
 public class Pet {
-    public String name, breed; //persian, labrador, golden retriever
-    public String pet_type;  //cat/dog
+    private String name, breed; //persian, labrador, golden retriever
+    private String pet_type;  //cat/dog
 
     public String getName(){
         return name;
@@ -27,5 +27,8 @@ public class Pet {
     public void setPet_type (String pet_type){
         this.pet_type= pet_type;
     }
+
 }
+
+
 
